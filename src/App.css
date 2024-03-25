@@ -1,0 +1,102 @@
+body{
+   background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+.card{
+   border: none;
+}
+.fa-bars{
+   font-size: 25px;
+}
+.fa-circle-arrow-left{
+   font-size: 20px;
+   background: transparent;
+}
+.ontainer{
+   text-decoration: none;
+}
+a{
+   text-decoration: none;
+}
+.carder{
+      display: inline-block;
+      flex-wrap: wrap;
+      width: 50%;
+}
+#footer{
+   margin-left: 16%;
+}
+ul li{
+   font-size: 20px;
+   color:#fff;
+   line-height: 35px;
+}
+ul li:nth-child(1){
+   color:aqua;
+   font-size: 25px;
+   text-decoration: underline;
+   text-decoration-color: #ccc;
+}
+.error{
+   mix-blend-mode:multiply; 
+   
+}
+.path{
+  margin-left: 22%;
+  margin-top: 50%;
+}
+@media (min-width: 1000px){
+   .carder{
+      display: inline-block;
+      flex-wrap: wrap;
+      width: 20%;
+   }
+   .form-control{
+      padding: 8px 32px;
+      font-size: 18px;
+   }
+   #footer{
+      margin-left: 43%;
+   }
+   .card{
+      width:50%;
+      margin-left: 28%;
+      margin-top: -5%;
+   }
+   .card img{
+      width:100%;
+      margin-left: 35%; 
+   }
+   .watch{
+      padding-left: 15%;
+   }
+   .play{
+    width:60%;
+    margin-left: 20%;
+   }
+   .later{
+      width: 60%;
+      margin-left: 62%;
+      padding: 16px;
+      
+   }
+   #links{
+      background: green;
+   }
+   .error{
+      mix-blend-mode:multiply; 
+   }
+   .bg-light-lg {
+      background-color: #f8f9fa !important;
+    }
+    .text-dark-lg{
+      color:#000 !important;
+    }
+   .path{
+     margin-left: 22%;
+     margin-top: -10%;
+   }
+   .poster{
+    height: 500px;
+   }
+
+} 
